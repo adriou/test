@@ -1,1 +1,5 @@
-<?php header('location:file://'.$_REQUEST['x']); ?>
+<?php
+
+header("Location: file:///etc/hostname");
+
+?>
